@@ -7,13 +7,8 @@ namespace SimpleCalculator
         static void Main(string[] args)
 
         {
-            string input = Console.ReadLine();
-
-            int convertInputToNumber;
-            int.TryParse(input, out convertInputToNumber);
-            int number = 90;
-            int result = 10 +10 - 100  +100 -number + convertInputToNumber;
-
+            int result = 20 + 5 * 2;
+            Console.WriteLine(result);
         }
     }
 
